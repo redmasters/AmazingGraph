@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    --orange: #D2872C;
+    --gray: #766F68;
+    
+    font-size: 62.5%;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-header__toggle:hover {
+
+}
+
+@media screen and (max-width: 500px){
+    .navbar-header__toggle {
+        display: list-item;
+    }
+}
+.container {
+    margin: 3rem 0 0 3rem;
+
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2.6rem;
+    color: var(--orange);
+}
