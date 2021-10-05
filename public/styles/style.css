@@ -1,4 +1,6 @@
-* {
+ *,
+ *::before,
+ *::after {
     margin: 0;
     padding: 0;
     border: none;
@@ -15,19 +17,22 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar-header__toggle:hover {
-
+.container {
+    margin: 3rem 0 0 3rem;
+    
 }
 
 @media screen and (max-width: 500px){
-    .navbar-header__toggle {
+    ._toggle {
         display: list-item;
+        font-family: '&#9776';
     }
 }
-.container {
-    margin: 3rem 0 0 3rem;
 
+.navbar-header__toggle:hover {
+    
 }
+
 
 p {
     font-size: 1.8rem;
