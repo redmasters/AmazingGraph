@@ -106,6 +106,9 @@ li {
         color: white;
         font-weight: 500;
     }
+    .menu {
+        display: none;
+    }
     
     p {
         margin-bottom: 3rem;
