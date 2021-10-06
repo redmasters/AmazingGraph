@@ -10,6 +10,7 @@
 
 a:link, a:active, a:visited{
     text-decoration: none;
+    color: var(--gray);
 }
 
 html {
@@ -17,7 +18,6 @@ html {
     --gray: #766F68;
     
     font-size: 62.5%;
-    
     font-family: 'Roboto', sans-serif;
 }
 
@@ -42,6 +42,27 @@ img {
 .grid-columns {
     grid-template-columns: 1fr 2fr;
 }
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+    width: 60%;
+}
+
+.grid-template-areas {
+    grid-template-areas: 
+    "left"
+    "right right"
+    ;
+}
+
+.item {
+    display: flex;
+}
+
 
 ._toggle {
     display: none;
