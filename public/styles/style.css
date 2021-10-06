@@ -81,14 +81,14 @@ li {
 @media screen and (max-width: 500px){
     ._toggle {
         font-size: 4rem;
+        color: var(--gray);
         background: transparent;
         display: contents;
+        cursor: pointer;
     }
     .section {
         display: flex;
         flex-direction: column;
-    }
-    .section {
         text-align: center;
     }
     .section > a {
